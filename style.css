@@ -15,8 +15,8 @@ color: white;
  }
 
  .banner-img img{
-max-width: 80%;
-height: 500px;
+width: 80%;
+height: auto;
  }
  .service-img img{
     width: 100%;
