@@ -4,9 +4,14 @@
  .product1 img{
      width: 25%;
  }
- .cstyle{
+ .card-style1{
      border: none;
  }
+ .card-style img{
+     width: 80%;
+     height: auto;
+ }
+ 
  .navimg img{
 width: 300px;
 height: auto;
@@ -16,9 +21,22 @@ max-width: 80%;
 height: auto;
  }
  .service-img img{
-    max-width: 100%;
+    width: 100%;
     height: auto;
      }
-     .icon1 .img img{
-         width: 50px;
+     
+     .service-card img{
+         width: 55%;
+     }
+     .footer i{
+         font-size: 30px;
+     }
+     .team-social ul i{
+         font-size: 25px;
+         color: white;
+         margin-top: 10px;
+     }
+     .footer{
+         height: 100px;
+         color: white;
      }
