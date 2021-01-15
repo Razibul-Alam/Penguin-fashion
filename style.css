@@ -7,10 +7,12 @@
  }
  
  .navimg img{
-width: 300px;
+width:270px;
 height: auto;
  }
- 
+ button{
+     margin-left: 60px;
+ }
  button h5{
 font-size: 18px;
 color: white;
@@ -53,3 +55,45 @@ h5{
          height: 100px;
          color: white;
      }
+
+     /*responsibe css start*/
+     @media (max-width:750px){
+        .navimg img{
+    width: 150px;
+    height: auto;
+}
+     }
+
+     @media (max-width:750px){
+        .banner-text h1{
+            font-weight: 700;
+            color: rgba(255, 145, 0, 0.794);
+            font-size: 27px;
+        }
+
+     }
+
+     @media (max-width:750px){
+        .banner-text span h1{
+            font-weight: 700;
+            color: rgba(40, 33, 131, 0.726);
+            font-size: 27px;
+        }
+
+     }
+     @media (max-width:750px){
+        .service-card img{
+            width: 35%;
+            margin-left: 130px;
+        }
+     }
+
+     @media (max-width:750px){
+        .service{
+            display: flex;
+            flex-direction: column-reverse;
+        justify-content: center;
+           
+        }
+     }
+     
